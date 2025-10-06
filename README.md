@@ -32,7 +32,7 @@ It provides a real-time dashboard of all sessions, detailed session views with c
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/ZakMatty/tsl-realtime-task
+git clone https://github.com/ZakMatty/tsl-realtime-task.git
 cd tsl-realtime-task
 2. Backend Setup
 bash
