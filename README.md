@@ -1,10 +1,10 @@
-# TSL Realtime Task
+# Realtime Task
 
 Live motorsport session monitoring with React and SignalR.
 
 ## 🚀 Project Overview
 
-TSL Realtime Task is a full-stack web application for live motorsport session monitoring.  
+Realtime Task is a full-stack web application for live motorsport session monitoring.  
 It provides a real-time dashboard of all sessions, detailed session views with competitor data, and search functionality for quick access to session information.
 
 - **Backend:** ASP.NET Core with SignalR for real-time updates  
@@ -32,7 +32,7 @@ It provides a real-time dashboard of all sessions, detailed session views with c
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/ZakMatty/tsl-realtime-task.git
+git clone https://github.com/ZakMatty/realtime-task.git
 cd tsl-realtime-task
 2. Backend Setup
 bash
