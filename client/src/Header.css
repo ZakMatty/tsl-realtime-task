@@ -1,6 +1,6 @@
 .ribbon-header {
   width: 100%;
-  background: linear-gradient(90deg, #E30613 0%, #b8000f 100%);
+  background: linear-gradient(90deg, #467ed5 0%, #467ed5 100%);
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   position: relative;
   z-index: 10;
@@ -37,6 +37,6 @@
 }
 
 .ribbon-link:hover {
-  color: #ffe0e4;
-  border-bottom: 2px solid #fff;
+  color: white;
+  border-bottom: 2px solid white;
 }

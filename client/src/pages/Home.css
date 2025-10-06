@@ -1,3 +1,72 @@
+@font-face {
+  font-family: 'junegull';
+  src: url('../assets/fonts/junegull.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.home-container {
+  padding: 2rem;
+}
+
+.home-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.refresh-btn {
+  background-color: #467ed5; /* TSL blue */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.refresh-btn:hover {
+  background-color: #3a6fbf;;
+}
+
+.filter-dropdown {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.sessions-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.sessions-table th,
+.sessions-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.sessions-table thead {
+  background-color: #f5f5f5;
+}
+
+.no-results {
+  text-align: center;
+  padding: 1rem;
+  color: #666;
+}
+
 .home-container {
   width: 100%;
   padding: 24px 0 0 0;
@@ -5,8 +74,9 @@
 
 .home-title {
   font-size: 2rem;
-  font-weight: bold;
-  color: #E30613;
+  font-weight: normal;
+  font-family: 'junegull', sans-serif;
+  color: #467ed5;
   margin-bottom: 24px;
   margin-top: 8px;
 }
@@ -39,5 +109,21 @@
 }
 
 .sessions-table tr:hover {
-  background: #f5eaea;
+  background: #e3f0ff; /* very light TSL blue tint */
+}
+
+.copy-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #467ed5;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+}
+
+.copy-btn:hover {
+  color: #3a6fbf; /* darker blue on hover */
 }

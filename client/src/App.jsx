@@ -1,7 +1,8 @@
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
-import "./Header.css"; // Add this line
+import SessionInformation from "./pages/SessionInformation";
+import "./Header.css";
 
 export default function App() {
   return (
@@ -9,7 +10,7 @@ export default function App() {
       {/* Ribbon Header */}
       <header className="ribbon-header">
         <div className="ribbon-content">
-          <h1 className="ribbon-title">TSL Timing</h1>
+          <h1 className="ribbon-title">Tech Test</h1>
           <nav className="ribbon-nav">
             <Link to="/" className="ribbon-link">Home</Link>
             <Link to="/search" className="ribbon-link">Search by Session ID</Link>
@@ -22,13 +23,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/session/:sessionId" element={<SessionInformation />} />
         </Routes>
       </main>
-
-      {/* Footer */}
-      <footer className="bg-black text-white text-center py-3 text-sm w-full">
-        © {new Date().getFullYear()} TSL Timing
-      </footer>
     </div>
   );
 }
