@@ -107,7 +107,6 @@ export default function Home() {
                       className="find-out-more-btn"
                       title="Find Out More"
                       onClick={() => {
-                        stopConnection(); // Stop SignalR before navigating
                         navigate(`/session/${session.sessionId}`);
                       }}
                     >
